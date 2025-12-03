@@ -44,7 +44,7 @@ public class Game {
                     continue;
             }
 
-            // каждый ход — ухудшение состояния
+        
             pet.tick();
         }
 

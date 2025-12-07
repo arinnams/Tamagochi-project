@@ -19,6 +19,7 @@ public class Game {
             System.out.println("3-Уложить спать");
             System.out.println("4-Ничего не делать");
             System.out.println("5-Выход");
+            System.out.println("6-Помыть питомца");
 
             System.out.print(">>> ");
             String input = scanner.nextLine();
@@ -35,6 +36,9 @@ public class Game {
                     break;
                 case "4":
                     pet.doNothing();
+                    break;
+                case "6":
+                    pet.wash();
                     break;
                 case "5":
                     System.out.println("Вы вышли из игры.");

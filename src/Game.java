@@ -48,6 +48,7 @@ public class Game {
                     continue;
             }
 
+        
             pet.tick();
         }
 

@@ -12,7 +12,7 @@ public class Pet {
     }
 
     public void printStatus() {
-        System.out.println("\n-----------------------------");
+        System.out.println("-----------------------------");
         System.out.println("Имя: " + name);
         System.out.println("Голод: " + hunger);
         System.out.println("Энергия: " + energy);

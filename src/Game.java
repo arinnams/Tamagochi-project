@@ -8,17 +8,17 @@ public class Game {
         String name = scanner.nextLine();
 
         Pet pet = new Pet(name);
-        System.out.println("\nВаш питомец создан!");
+        System.out.println("Ваш питомец создан!");
 
         while (pet.isAlive()) {
             pet.printStatus();
 
             System.out.println("Выберите действие:");
-            System.out.println("1 — Покормить");
-            System.out.println("2 — Поиграть");
-            System.out.println("3 — Уложить спать");
-            System.out.println("4 — Ничего не делать");
-            System.out.println("5 — Выход");
+            System.out.println("1-Покормить");
+            System.out.println("2-Поиграть");
+            System.out.println("3-Уложить спать");
+            System.out.println("4-Ничего не делать");
+            System.out.println("5-Выход");
 
             System.out.print(">>> ");
             String input = scanner.nextLine();
@@ -48,7 +48,7 @@ public class Game {
             pet.tick();
         }
 
-        System.out.println("\n⚠️ Ваш питомец умер...");
+        System.out.println("⚠️ Ваш питомец умер...");
         System.out.println("Игра окончена.");
     }
 }
